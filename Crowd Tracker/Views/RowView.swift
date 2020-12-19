@@ -11,9 +11,12 @@ struct RowView: View {
     var building: Building
     
     var body: some View {
-            
+        
+        // Z Stack (for background)
+        
         ZStack {
             
+            // initializing accent colors: will be used based on the value of the building object of each particular row
             let redAccent = Color(red: 0.91, green: 0.13, blue: 0.13)
             let orangeAccent = Color(red: 0.93, green: 0.60, blue: 0.05)
             let greenAccent = Color(red: 0.05, green: 0.77, blue: 0.09)
@@ -25,6 +28,7 @@ struct RowView: View {
             
             HStack {
                 
+                // a bit of space before the indicator
                 Spacer()
                     .frame(width: 13)
                 
@@ -32,6 +36,7 @@ struct RowView: View {
                     .fill(accents[building.accent])
                     .frame(width: 5, height: 46, alignment: .leading)
                 
+                // text information from the building object
                 VStack(alignment: .leading) {
                     Text(building.name)
                         .font(.system(size: 18, weight: .medium))
@@ -46,6 +51,8 @@ struct RowView: View {
                 }
                 
                 Spacer()
+                
+                // a z stack for the percentage
                 
                 ZStack {
                     Rectangle()

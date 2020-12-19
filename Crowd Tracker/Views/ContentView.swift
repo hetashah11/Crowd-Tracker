@@ -10,20 +10,28 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
+            
+            // Background Color
+            
             Color(red: 0.89, green: 0.91, blue: 0.95)
                 .ignoresSafeArea()
 
             
             VStack {
+                
+                // Horizontal Stack with the Logo and App Name
+                
                 HStack {
                     
                     Image("logo").resizable()
                         .frame(width: 78, height: 78, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     
-                    Text("Crowd Tracker")
+                    Text("UDistance")
                         .font(.system(size: 34, weight: .semibold))
                         .foregroundColor(Color(red: 0.18, green: 0.31, blue: 0.44, opacity: 1.0))
                 }
+                
+                // Scroll View making a RowView for each building in Buildings
                 
                 ScrollView {
                     LazyVStack(alignment: .leading, spacing: 0) {
@@ -39,7 +47,9 @@ struct ContentView: View {
                 }
             }
             
+            // Adding the bottom location-safety bar
             VStack {
+                
                 Spacer()
                 
                 LocationView()

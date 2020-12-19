@@ -11,7 +11,6 @@
 		24B9A7AD1ED06BA739BFC89C /* Pods_Crowd_TrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4FD601AAE3737580166103 /* Pods_Crowd_TrackerTests.framework */; };
 		FC2C4373258E62E300D065B2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2C4371258E62B600D065B2 /* CoreLocation.framework */; };
 		FC2C4376258E62E400D065B2 /* Pods_Crowd_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 922E65A9046A89317520D1E5 /* Pods_Crowd_Tracker.framework */; };
-		FC2C4395258E7AF000D065B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC2C4394258E7AF000D065B2 /* GoogleService-Info.plist */; };
 		FCE31896258E1F7B00862DC2 /* Crowd_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE31895258E1F7B00862DC2 /* Crowd_TrackerApp.swift */; };
 		FCE31898258E1F7B00862DC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE31897258E1F7B00862DC2 /* ContentView.swift */; };
 		FCE3189A258E1F7F00862DC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE31899258E1F7F00862DC2 /* Assets.xcassets */; };
@@ -22,6 +21,7 @@
 		FCE318C9258E350200862DC2 /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE318C8258E350200862DC2 /* Building.swift */; };
 		FCE318CE258E36E100862DC2 /* CampusData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE318CD258E36E100862DC2 /* CampusData.swift */; };
 		FCE318E8258E539F00862DC2 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE318E7258E539F00862DC2 /* LocationView.swift */; };
+		FCE516D4258E90FD00071FE5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCE516D3258E90FD00071FE5 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,6 @@
 		B3144BFD13082479AF4D3DDE /* Pods-Crowd Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crowd Tracker.release.xcconfig"; path = "Target Support Files/Pods-Crowd Tracker/Pods-Crowd Tracker.release.xcconfig"; sourceTree = "<group>"; };
 		CF517A79F31BE646984B14F5 /* Pods-Crowd TrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crowd TrackerTests.release.xcconfig"; path = "Target Support Files/Pods-Crowd TrackerTests/Pods-Crowd TrackerTests.release.xcconfig"; sourceTree = "<group>"; };
 		FC2C4371258E62B600D065B2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		FC2C4394258E7AF000D065B2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FCE31892258E1F7B00862DC2 /* Crowd Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crowd Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE31895258E1F7B00862DC2 /* Crowd_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crowd_TrackerApp.swift; sourceTree = "<group>"; };
 		FCE31897258E1F7B00862DC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +68,7 @@
 		FCE318C8258E350200862DC2 /* Building.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Building.swift; sourceTree = "<group>"; };
 		FCE318CD258E36E100862DC2 /* CampusData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusData.swift; sourceTree = "<group>"; };
 		FCE318E7258E539F00862DC2 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		FCE516D3258E90FD00071FE5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,15 +150,12 @@
 			isa = PBXGroup;
 			children = (
 				FCE31895258E1F7B00862DC2 /* Crowd_TrackerApp.swift */,
-				FCE318C8258E350200862DC2 /* Building.swift */,
-				FCE318CD258E36E100862DC2 /* CampusData.swift */,
-				FCE31897258E1F7B00862DC2 /* ContentView.swift */,
-				FCE318C3258E28C300862DC2 /* RowView.swift */,
-				FCE318E7258E539F00862DC2 /* LocationView.swift */,
+				FCFF4CF0258E8D8600B951A2 /* Models */,
+				FCFF4CE6258E8CE400B951A2 /* Views */,
 				FCE318D6258E4E1700862DC2 /* Images */,
 				FCE31899258E1F7F00862DC2 /* Assets.xcassets */,
+				FCE516D3258E90FD00071FE5 /* GoogleService-Info.plist */,
 				FCE3189E258E1F7F00862DC2 /* Info.plist */,
-				FC2C4394258E7AF000D065B2 /* GoogleService-Info.plist */,
 				FCE3189B258E1F7F00862DC2 /* Preview Content */,
 			);
 			path = "Crowd Tracker";
@@ -195,6 +192,25 @@
 			children = (
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		FCFF4CE6258E8CE400B951A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FCE31897258E1F7B00862DC2 /* ContentView.swift */,
+				FCE318C3258E28C300862DC2 /* RowView.swift */,
+				FCE318E7258E539F00862DC2 /* LocationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FCFF4CF0258E8D8600B951A2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FCE318C8258E350200862DC2 /* Building.swift */,
+				FCE318CD258E36E100862DC2 /* CampusData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,7 +323,7 @@
 			files = (
 				FCE3189D258E1F7F00862DC2 /* Preview Assets.xcassets in Resources */,
 				FCE3189A258E1F7F00862DC2 /* Assets.xcassets in Resources */,
-				FC2C4395258E7AF000D065B2 /* GoogleService-Info.plist in Resources */,
+				FCE516D4258E90FD00071FE5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,7 +623,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dhruvvk.Crowd-Tracker";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhruvvk.udistance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -629,7 +645,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dhruvvk.Crowd-Tracker";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhruvvk.udistance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
