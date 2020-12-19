@@ -7,7 +7,19 @@
 
 import SwiftUI
 
+final class buildingArray: ObservableObject {
+    var array : [Building] = buildings
+    
+    func updateArray() -> Void {
+        array = load()
+    }
+}
+
 struct ContentView: View {
+    @State var bArray: [Building] = load()
+    @ObservedObject var BA: buildingArray = buildingArray()
+    @State private var toggleStatus:Bool = false
+    
     var body: some View {
         ZStack {
             
@@ -24,7 +36,7 @@ struct ContentView: View {
                 HStack {
                     
                     Image("logo").resizable()
-                        .frame(width: 78, height: 78, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        .frame(width: 78, height: 78, alignment: .center)
                     
                     Text("UDistance")
                         .font(.system(size: 34, weight: .semibold))
@@ -35,7 +47,7 @@ struct ContentView: View {
                 
                 ScrollView {
                     LazyVStack(alignment: .leading, spacing: 0) {
-                        ForEach(buildings, id: \.self) { building in
+                        ForEach(BA.array, id: \.self) { building in
                             RowView(building: building)
                                 .mask(RoundedRectangle(cornerRadius: 10)
                                     .frame(width: 380, height: 65, alignment: .center))
@@ -52,12 +64,23 @@ struct ContentView: View {
                 
                 Spacer()
                 
-                LocationView()
-                    .shadow(color: Color(red: 0.29, green: 0.34, blue: 0.44, opacity: 0.2), radius: 30, x: 0, y: 10)
+                HStack {
+                    Button(action: {BA.updateArray()}, label: {
+                        /*@START_MENU_TOKEN@*/Text("Button")/*@END_MENU_TOKEN@*/
+                    })
+                    LocationView()
+                        .shadow(color: Color(red: 0.29, green: 0.34, blue: 0.44, opacity: 0.2), radius: 30, x: 0, y: 10)
+                    Button(action: {
+                                self.toggleStatus = !self.toggleStatus
+                            }) {
+                                Text((toggleStatus == false) ? "Press Me" : "Unpress me")
+                            }
+                }
             }
         }
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

@@ -21,7 +21,7 @@ struct Crowd_TrackerApp: App {
     init() {
         // occurs during application load
         FirebaseApp.configure()
-        load()
+        // load()
     }
     
     var body: some Scene {

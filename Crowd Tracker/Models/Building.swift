@@ -25,3 +25,12 @@ struct Building: Hashable, Codable {
     var accent: Int
     
 }
+
+struct JSONBuilding: Hashable, Codable {
+    
+    var name: String
+    var address: String
+    var capacity: Int // capacity of the building
+    var population: Int // current number of people in the building
+    
+}
