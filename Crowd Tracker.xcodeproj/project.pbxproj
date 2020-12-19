@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCE31896258E1F7B00862DC2 /* Crowd_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE31895258E1F7B00862DC2 /* Crowd_TrackerApp.swift */; };
+		FCE31898258E1F7B00862DC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE31897258E1F7B00862DC2 /* ContentView.swift */; };
+		FCE3189A258E1F7F00862DC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE31899258E1F7F00862DC2 /* Assets.xcassets */; };
+		FCE3189D258E1F7F00862DC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE3189C258E1F7F00862DC2 /* Preview Assets.xcassets */; };
+		FCE318A8258E1F7F00862DC2 /* Crowd_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE318A7258E1F7F00862DC2 /* Crowd_TrackerTests.swift */; };
+		FCE318B3258E1F8000862DC2 /* Crowd_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE318B2258E1F8000862DC2 /* Crowd_TrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCE318A4258E1F7F00862DC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCE3188A258E1F7B00862DC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCE31891258E1F7B00862DC2;
+			remoteInfo = "Crowd Tracker";
+		};
+		FCE318AF258E1F8000862DC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCE3188A258E1F7B00862DC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCE31891258E1F7B00862DC2;
+			remoteInfo = "Crowd Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCE31892258E1F7B00862DC2 /* Crowd Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crowd Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE31895258E1F7B00862DC2 /* Crowd_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crowd_TrackerApp.swift; sourceTree = "<group>"; };
+		FCE31897258E1F7B00862DC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FCE31899258E1F7F00862DC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCE3189C258E1F7F00862DC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCE3189E258E1F7F00862DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCE318A3258E1F7F00862DC2 /* Crowd TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crowd TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE318A7258E1F7F00862DC2 /* Crowd_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crowd_TrackerTests.swift; sourceTree = "<group>"; };
+		FCE318A9258E1F7F00862DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCE318AE258E1F8000862DC2 /* Crowd TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crowd TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE318B2258E1F8000862DC2 /* Crowd_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crowd_TrackerUITests.swift; sourceTree = "<group>"; };
+		FCE318B4258E1F8000862DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCE3188F258E1F7B00862DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE318A0258E1F7F00862DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE318AB258E1F8000862DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCE31889258E1F7B00862DC2 = {
+			isa = PBXGroup;
+			children = (
+				FCE31894258E1F7B00862DC2 /* Crowd Tracker */,
+				FCE318A6258E1F7F00862DC2 /* Crowd TrackerTests */,
+				FCE318B1258E1F8000862DC2 /* Crowd TrackerUITests */,
+				FCE31893258E1F7B00862DC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCE31893258E1F7B00862DC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCE31892258E1F7B00862DC2 /* Crowd Tracker.app */,
+				FCE318A3258E1F7F00862DC2 /* Crowd TrackerTests.xctest */,
+				FCE318AE258E1F8000862DC2 /* Crowd TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCE31894258E1F7B00862DC2 /* Crowd Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				FCE31895258E1F7B00862DC2 /* Crowd_TrackerApp.swift */,
+				FCE31897258E1F7B00862DC2 /* ContentView.swift */,
+				FCE31899258E1F7F00862DC2 /* Assets.xcassets */,
+				FCE3189E258E1F7F00862DC2 /* Info.plist */,
+				FCE3189B258E1F7F00862DC2 /* Preview Content */,
+			);
+			path = "Crowd Tracker";
+			sourceTree = "<group>";
+		};
+		FCE3189B258E1F7F00862DC2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FCE3189C258E1F7F00862DC2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCE318A6258E1F7F00862DC2 /* Crowd TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCE318A7258E1F7F00862DC2 /* Crowd_TrackerTests.swift */,
+				FCE318A9258E1F7F00862DC2 /* Info.plist */,
+			);
+			path = "Crowd TrackerTests";
+			sourceTree = "<group>";
+		};
+		FCE318B1258E1F8000862DC2 /* Crowd TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCE318B2258E1F8000862DC2 /* Crowd_TrackerUITests.swift */,
+				FCE318B4258E1F8000862DC2 /* Info.plist */,
+			);
+			path = "Crowd TrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCE31891258E1F7B00862DC2 /* Crowd Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE318B7258E1F8000862DC2 /* Build configuration list for PBXNativeTarget "Crowd Tracker" */;
+			buildPhases = (
+				FCE3188E258E1F7B00862DC2 /* Sources */,
+				FCE3188F258E1F7B00862DC2 /* Frameworks */,
+				FCE31890258E1F7B00862DC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crowd Tracker";
+			productName = "Crowd Tracker";
+			productReference = FCE31892258E1F7B00862DC2 /* Crowd Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCE318A2258E1F7F00862DC2 /* Crowd TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE318BA258E1F8000862DC2 /* Build configuration list for PBXNativeTarget "Crowd TrackerTests" */;
+			buildPhases = (
+				FCE3189F258E1F7F00862DC2 /* Sources */,
+				FCE318A0258E1F7F00862DC2 /* Frameworks */,
+				FCE318A1258E1F7F00862DC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCE318A5258E1F7F00862DC2 /* PBXTargetDependency */,
+			);
+			name = "Crowd TrackerTests";
+			productName = "Crowd TrackerTests";
+			productReference = FCE318A3258E1F7F00862DC2 /* Crowd TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCE318AD258E1F8000862DC2 /* Crowd TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE318BD258E1F8000862DC2 /* Build configuration list for PBXNativeTarget "Crowd TrackerUITests" */;
+			buildPhases = (
+				FCE318AA258E1F8000862DC2 /* Sources */,
+				FCE318AB258E1F8000862DC2 /* Frameworks */,
+				FCE318AC258E1F8000862DC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCE318B0258E1F8000862DC2 /* PBXTargetDependency */,
+			);
+			name = "Crowd TrackerUITests";
+			productName = "Crowd TrackerUITests";
+			productReference = FCE318AE258E1F8000862DC2 /* Crowd TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCE3188A258E1F7B00862DC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					FCE31891258E1F7B00862DC2 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					FCE318A2258E1F7F00862DC2 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = FCE31891258E1F7B00862DC2;
+					};
+					FCE318AD258E1F8000862DC2 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = FCE31891258E1F7B00862DC2;
+					};
+				};
+			};
+			buildConfigurationList = FCE3188D258E1F7B00862DC2 /* Build configuration list for PBXProject "Crowd Tracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCE31889258E1F7B00862DC2;
+			productRefGroup = FCE31893258E1F7B00862DC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCE31891258E1F7B00862DC2 /* Crowd Tracker */,
+				FCE318A2258E1F7F00862DC2 /* Crowd TrackerTests */,
+				FCE318AD258E1F8000862DC2 /* Crowd TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCE31890258E1F7B00862DC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE3189D258E1F7F00862DC2 /* Preview Assets.xcassets in Resources */,
+				FCE3189A258E1F7F00862DC2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE318A1258E1F7F00862DC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE318AC258E1F8000862DC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCE3188E258E1F7B00862DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE31898258E1F7B00862DC2 /* ContentView.swift in Sources */,
+				FCE31896258E1F7B00862DC2 /* Crowd_TrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE3189F258E1F7F00862DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE318A8258E1F7F00862DC2 /* Crowd_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE318AA258E1F8000862DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE318B3258E1F8000862DC2 /* Crowd_TrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCE318A5258E1F7F00862DC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCE31891258E1F7B00862DC2 /* Crowd Tracker */;
+			targetProxy = FCE318A4258E1F7F00862DC2 /* PBXContainerItemProxy */;
+		};
+		FCE318B0258E1F8000862DC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCE31891258E1F7B00862DC2 /* Crowd Tracker */;
+			targetProxy = FCE318AF258E1F8000862DC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FCE318B5258E1F8000862DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCE318B6258E1F8000862DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCE318B8258E1F8000862DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Crowd Tracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Crowd Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dhruvvk.Crowd-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCE318B9258E1F8000862DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Crowd Tracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Crowd Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dhruvvk.Crowd-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCE318BB258E1F8000862DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Crowd TrackerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dhruvvk.Crowd-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crowd Tracker.app/Crowd Tracker";
+			};
+			name = Debug;
+		};
+		FCE318BC258E1F8000862DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Crowd TrackerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dhruvvk.Crowd-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crowd Tracker.app/Crowd Tracker";
+			};
+			name = Release;
+		};
+		FCE318BE258E1F8000862DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Crowd TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dhruvvk.Crowd-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Crowd Tracker";
+			};
+			name = Debug;
+		};
+		FCE318BF258E1F8000862DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Crowd TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dhruvvk.Crowd-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Crowd Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCE3188D258E1F7B00862DC2 /* Build configuration list for PBXProject "Crowd Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE318B5258E1F8000862DC2 /* Debug */,
+				FCE318B6258E1F8000862DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCE318B7258E1F8000862DC2 /* Build configuration list for PBXNativeTarget "Crowd Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE318B8258E1F8000862DC2 /* Debug */,
+				FCE318B9258E1F8000862DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCE318BA258E1F8000862DC2 /* Build configuration list for PBXNativeTarget "Crowd TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE318BB258E1F8000862DC2 /* Debug */,
+				FCE318BC258E1F8000862DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCE318BD258E1F8000862DC2 /* Build configuration list for PBXNativeTarget "Crowd TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE318BE258E1F8000862DC2 /* Debug */,
+				FCE318BF258E1F8000862DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCE3188A258E1F7B00862DC2 /* Project object */;
+}
