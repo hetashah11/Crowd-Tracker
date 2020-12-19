@@ -13,6 +13,7 @@
 		FCE3189D258E1F7F00862DC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE3189C258E1F7F00862DC2 /* Preview Assets.xcassets */; };
 		FCE318A8258E1F7F00862DC2 /* Crowd_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE318A7258E1F7F00862DC2 /* Crowd_TrackerTests.swift */; };
 		FCE318B3258E1F8000862DC2 /* Crowd_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE318B2258E1F8000862DC2 /* Crowd_TrackerUITests.swift */; };
+		FCE318C4258E28C300862DC2 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE318C3258E28C300862DC2 /* RowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		FCE318AE258E1F8000862DC2 /* Crowd TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crowd TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE318B2258E1F8000862DC2 /* Crowd_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crowd_TrackerUITests.swift; sourceTree = "<group>"; };
 		FCE318B4258E1F8000862DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCE318C3258E28C300862DC2 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				FCE31895258E1F7B00862DC2 /* Crowd_TrackerApp.swift */,
 				FCE31897258E1F7B00862DC2 /* ContentView.swift */,
+				FCE318C3258E28C300862DC2 /* RowView.swift */,
 				FCE31899258E1F7F00862DC2 /* Assets.xcassets */,
 				FCE3189E258E1F7F00862DC2 /* Info.plist */,
 				FCE3189B258E1F7F00862DC2 /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCE31898258E1F7B00862DC2 /* ContentView.swift in Sources */,
+				FCE318C4258E28C300862DC2 /* RowView.swift in Sources */,
 				FCE31896258E1F7B00862DC2 /* Crowd_TrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

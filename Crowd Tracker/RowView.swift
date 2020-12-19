@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  RowView.swift
 //  Crowd Tracker
 //
 //  Created by Dhruv Vikram Krishna on 12/19/20.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct RowView: View {
     var body: some View {
         HStack {
             RoundedRectangle(cornerRadius: 25)
@@ -33,12 +33,11 @@ struct ContentView: View {
                     .foregroundColor(Color.white)
             }
         }
-        
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct RowView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        RowView()
     }
 }
