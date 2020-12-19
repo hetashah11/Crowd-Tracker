@@ -9,31 +9,26 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        HStack {
-            RoundedRectangle(cornerRadius: 25)
-                .fill(Color.red)
-                .frame(width: 5, height: 46, alignment: .leading)
+        ZStack {
+            Color(red: 0.89, green: 0.91, blue: 0.95)
+                .ignoresSafeArea()
             
-            VStack(alignment: .leading) {
-                Text("Integrative Learning Center")
-                    .font(.headline)
-                    .foregroundColor(Color.blue)
-                Text("650 N Pleasant St")
-                    .font(.subheadline)
-                    .foregroundColor(Color.gray)
-            }
             
-            ZStack {
-                Rectangle()
-                    .fill(Color.red)
-                    .frame(width: 65, height: 65, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                
-                Text("21%")
-                    .font(.headline)
-                    .foregroundColor(Color.white)
+            ScrollView {
+                LazyVStack(alignment: .leading) {
+                    
+                    RowView()
+                        .mask(RoundedRectangle(cornerRadius: 10)
+                            .frame(width: 380, height: 65, alignment: .center))
+                    
+                    // sample loop through data
+                    ForEach(1...100, id: \.self) {
+                        Text("Row \($0)")
+                    }
+                    
+                }
             }
         }
-        
     }
 }
 
