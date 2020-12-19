@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08711AF2378A4667D37A6D4E /* Pods_Crowd_Tracker_Crowd_TrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358B8C3C097460A549E40800 /* Pods_Crowd_Tracker_Crowd_TrackerUITests.framework */; };
+		24B9A7AD1ED06BA739BFC89C /* Pods_Crowd_TrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4FD601AAE3737580166103 /* Pods_Crowd_TrackerTests.framework */; };
+		FC2C4373258E62E300D065B2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2C4371258E62B600D065B2 /* CoreLocation.framework */; };
+		FC2C4376258E62E400D065B2 /* Pods_Crowd_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 922E65A9046A89317520D1E5 /* Pods_Crowd_Tracker.framework */; };
+		FC2C4395258E7AF000D065B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC2C4394258E7AF000D065B2 /* GoogleService-Info.plist */; };
 		FCE31896258E1F7B00862DC2 /* Crowd_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE31895258E1F7B00862DC2 /* Crowd_TrackerApp.swift */; };
 		FCE31898258E1F7B00862DC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE31897258E1F7B00862DC2 /* ContentView.swift */; };
 		FCE3189A258E1F7F00862DC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE31899258E1F7F00862DC2 /* Assets.xcassets */; };
@@ -37,6 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27FFA1AA06D53A8956D8560F /* Pods-Crowd TrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crowd TrackerTests.debug.xcconfig"; path = "Target Support Files/Pods-Crowd TrackerTests/Pods-Crowd TrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F377EDCA9FCFBF6659D5390 /* Pods-Crowd Tracker-Crowd TrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crowd Tracker-Crowd TrackerUITests.release.xcconfig"; path = "Target Support Files/Pods-Crowd Tracker-Crowd TrackerUITests/Pods-Crowd Tracker-Crowd TrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		358B8C3C097460A549E40800 /* Pods_Crowd_Tracker_Crowd_TrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crowd_Tracker_Crowd_TrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A4FD601AAE3737580166103 /* Pods_Crowd_TrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crowd_TrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F1823697DFB1105148363F7 /* Pods-Crowd Tracker-Crowd TrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crowd Tracker-Crowd TrackerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Crowd Tracker-Crowd TrackerUITests/Pods-Crowd Tracker-Crowd TrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		881632AC2C8D8234849EA533 /* Pods-Crowd Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crowd Tracker.debug.xcconfig"; path = "Target Support Files/Pods-Crowd Tracker/Pods-Crowd Tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		922E65A9046A89317520D1E5 /* Pods_Crowd_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crowd_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3144BFD13082479AF4D3DDE /* Pods-Crowd Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crowd Tracker.release.xcconfig"; path = "Target Support Files/Pods-Crowd Tracker/Pods-Crowd Tracker.release.xcconfig"; sourceTree = "<group>"; };
+		CF517A79F31BE646984B14F5 /* Pods-Crowd TrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crowd TrackerTests.release.xcconfig"; path = "Target Support Files/Pods-Crowd TrackerTests/Pods-Crowd TrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		FC2C4371258E62B600D065B2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FC2C4394258E7AF000D065B2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FCE31892258E1F7B00862DC2 /* Crowd Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crowd Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE31895258E1F7B00862DC2 /* Crowd_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crowd_TrackerApp.swift; sourceTree = "<group>"; };
 		FCE31897258E1F7B00862DC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC2C4373258E62E300D065B2 /* CoreLocation.framework in Frameworks */,
+				FC2C4376258E62E400D065B2 /* Pods_Crowd_Tracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24B9A7AD1ED06BA739BFC89C /* Pods_Crowd_TrackerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +93,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08711AF2378A4667D37A6D4E /* Pods_Crowd_Tracker_Crowd_TrackerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B065970D836E1967F3B7BCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				881632AC2C8D8234849EA533 /* Pods-Crowd Tracker.debug.xcconfig */,
+				B3144BFD13082479AF4D3DDE /* Pods-Crowd Tracker.release.xcconfig */,
+				6F1823697DFB1105148363F7 /* Pods-Crowd Tracker-Crowd TrackerUITests.debug.xcconfig */,
+				2F377EDCA9FCFBF6659D5390 /* Pods-Crowd Tracker-Crowd TrackerUITests.release.xcconfig */,
+				27FFA1AA06D53A8956D8560F /* Pods-Crowd TrackerTests.debug.xcconfig */,
+				CF517A79F31BE646984B14F5 /* Pods-Crowd TrackerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2D1C248127A2B00962D385EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC2C4371258E62B600D065B2 /* CoreLocation.framework */,
+				922E65A9046A89317520D1E5 /* Pods_Crowd_Tracker.framework */,
+				358B8C3C097460A549E40800 /* Pods_Crowd_Tracker_Crowd_TrackerUITests.framework */,
+				6A4FD601AAE3737580166103 /* Pods_Crowd_TrackerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FCE31889258E1F7B00862DC2 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +131,8 @@
 				FCE318A6258E1F7F00862DC2 /* Crowd TrackerTests */,
 				FCE318B1258E1F8000862DC2 /* Crowd TrackerUITests */,
 				FCE31893258E1F7B00862DC2 /* Products */,
+				0B065970D836E1967F3B7BCF /* Pods */,
+				2D1C248127A2B00962D385EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +158,7 @@
 				FCE318D6258E4E1700862DC2 /* Images */,
 				FCE31899258E1F7F00862DC2 /* Assets.xcassets */,
 				FCE3189E258E1F7F00862DC2 /* Info.plist */,
+				FC2C4394258E7AF000D065B2 /* GoogleService-Info.plist */,
 				FCE3189B258E1F7F00862DC2 /* Preview Content */,
 			);
 			path = "Crowd Tracker";
@@ -157,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCE318B7258E1F8000862DC2 /* Build configuration list for PBXNativeTarget "Crowd Tracker" */;
 			buildPhases = (
+				A6F28026DF44138CB09404BD /* [CP] Check Pods Manifest.lock */,
 				FCE3188E258E1F7B00862DC2 /* Sources */,
 				FCE3188F258E1F7B00862DC2 /* Frameworks */,
 				FCE31890258E1F7B00862DC2 /* Resources */,
+				73FE83F0142BB23296F5CAFC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -174,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCE318BA258E1F8000862DC2 /* Build configuration list for PBXNativeTarget "Crowd TrackerTests" */;
 			buildPhases = (
+				780C63063E667C0D39ECFA44 /* [CP] Check Pods Manifest.lock */,
 				FCE3189F258E1F7F00862DC2 /* Sources */,
 				FCE318A0258E1F7F00862DC2 /* Frameworks */,
 				FCE318A1258E1F7F00862DC2 /* Resources */,
@@ -192,9 +242,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCE318BD258E1F8000862DC2 /* Build configuration list for PBXNativeTarget "Crowd TrackerUITests" */;
 			buildPhases = (
+				5D56BEA10C5FC047450306B9 /* [CP] Check Pods Manifest.lock */,
 				FCE318AA258E1F8000862DC2 /* Sources */,
 				FCE318AB258E1F8000862DC2 /* Frameworks */,
 				FCE318AC258E1F8000862DC2 /* Resources */,
+				DC8C07009251674B49907512 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,6 +307,7 @@
 			files = (
 				FCE3189D258E1F7F00862DC2 /* Preview Assets.xcassets in Resources */,
 				FCE3189A258E1F7F00862DC2 /* Assets.xcassets in Resources */,
+				FC2C4395258E7AF000D065B2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +326,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D56BEA10C5FC047450306B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Crowd Tracker-Crowd TrackerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73FE83F0142BB23296F5CAFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Crowd Tracker/Pods-Crowd Tracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Crowd Tracker/Pods-Crowd Tracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Crowd Tracker/Pods-Crowd Tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		780C63063E667C0D39ECFA44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Crowd TrackerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6F28026DF44138CB09404BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Crowd Tracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC8C07009251674B49907512 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Crowd Tracker-Crowd TrackerUITests/Pods-Crowd Tracker-Crowd TrackerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Crowd Tracker-Crowd TrackerUITests/Pods-Crowd Tracker-Crowd TrackerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Crowd Tracker-Crowd TrackerUITests/Pods-Crowd Tracker-Crowd TrackerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FCE3188E258E1F7B00862DC2 /* Sources */ = {
@@ -438,6 +594,7 @@
 		};
 		FCE318B8258E1F8000862DC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 881632AC2C8D8234849EA533 /* Pods-Crowd Tracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +616,7 @@
 		};
 		FCE318B9258E1F8000862DC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3144BFD13082479AF4D3DDE /* Pods-Crowd Tracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -480,6 +638,7 @@
 		};
 		FCE318BB258E1F8000862DC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27FFA1AA06D53A8956D8560F /* Pods-Crowd TrackerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -501,6 +660,7 @@
 		};
 		FCE318BC258E1F8000862DC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF517A79F31BE646984B14F5 /* Pods-Crowd TrackerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -522,6 +682,7 @@
 		};
 		FCE318BE258E1F8000862DC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F1823697DFB1105148363F7 /* Pods-Crowd Tracker-Crowd TrackerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +702,7 @@
 		};
 		FCE318BF258E1F8000862DC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F377EDCA9FCFBF6659D5390 /* Pods-Crowd Tracker-Crowd TrackerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

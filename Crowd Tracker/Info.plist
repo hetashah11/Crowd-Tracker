@@ -8,6 +8,12 @@
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This app uses your location to let you know if you are in a crowded area.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This app uses your location to let you know if you are in a crowded area.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app uses your location to let you know if you are in a crowded area.</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
